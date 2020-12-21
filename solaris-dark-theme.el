@@ -3,7 +3,7 @@
 (eval-when-compile
   (require 'solarized-palettes))
 
-(deftheme solaris-dark "The dark variant of the Solaris colour theme")
+(deftheme solaris-dark "Solaris dark")
 (solarized-with-color-variables
   'dark 'solaris-dark solarized-dark-color-palette-alist solaris-theme)
 

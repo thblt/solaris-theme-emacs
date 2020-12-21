@@ -5,6 +5,6 @@
 
 (deftheme solaris-dark-high-contrast "Solaris dark (high contrast)")
 (solarized-with-color-variables
-  'dark 'solaris-dark solarized-dark-high-contrast-palette-alist solaris-theme)
+  'dark 'solaris-dark-high-contrast solarized-dark-high-contrast-palette-alist solaris-theme)
 
 (provide-theme 'solaris-dark-high-contrast)

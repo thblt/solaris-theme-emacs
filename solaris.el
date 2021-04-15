@@ -75,6 +75,8 @@
        `(mode-line-highlight ((,class (:foreground ,base01 :weight ,s-maybe-bold :inverse-video t))))
        ;; `(mode-line-buffer-id ((,class (:inherit mode-line :weight bold))))
        `(header-line ((,class (:inherit mode-line :overline nil))))
+       ;; ivy
+       `(ivy-current-match ((,class (:background ,blue :foreground ,base03 :weight bold :extend t))))
        ;;;; erc
        `(erc-notice-face ((,class (:foreground ,base01))))
        `(erc-prompt-face ((,class (:background ,base02 :foreground ,base0))))

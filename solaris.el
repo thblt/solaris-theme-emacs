@@ -1,6 +1,31 @@
-(defun solaris--heading-height (x) (if solarized-scale-outline-headlines x 1.0))
+;;; solaris.el --- Solaris themes for Emacs
 
-(setq solarized-high-contrast-mode-line t)
+;; Copyright (C) 2020-2021 Thibault Polge
+
+;; Author: Thibaul Polge <thibault@thb.lt>
+;; Author: Thomas Frössman <thomasf@jossystem.se>
+
+;; This program is free software; you can redistribute it and/or modify
+;; it under the terms of the GNU General Public License as published by
+;; the Free Software Foundation, either version 3 of the License, or
+;; (at your option) any later version.
+
+;; This program is distributed in the hope that it will be useful,
+;; but WITHOUT ANY WARRANTY; without even the implied warranty of
+;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+;; GNU General Public License for more details.
+
+;; You should have received a copy of the GNU General Public License
+;; along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+;;; Commentary
+
+;; Don't use this. Solaris is just a heavily customized version of
+;; Solarized. If you like it, fork it and maintain it for yourself,
+;; because I don't promise I won't break things every other day --- in
+;; fact, I almost promise I *will*.
+
+;;; Code
 
 (defvar solaris-theme
   '("Solaris, like Solarized, but with less fruit salad."

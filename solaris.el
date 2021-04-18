@@ -35,14 +35,14 @@
     (let*
         ((dark (eq variant 'dark))
          ;; Headings for code
-         (code-heading-1 `((,class ( :foreground ,red-1fg     :inherit variable-pitch :background ,base02 :weight bold :overline nil :underline ,base01 :extend t))))
-         (code-heading-2 `((,class ( :foreground ,magenta-1fg :inherit variable-pitch :background ,base02 :weight bold :overline nil :underline ,base01 :extend t))))
-         (code-heading-3 `((,class ( :foreground ,violet-1fg  :inherit variable-pitch :background ,base02 :weight bold :overline nil :underline ,base01 :extend t))))
-         (code-heading-4 `((,class ( :foreground ,blue-1fg    :inherit variable-pitch :background ,base02 :weight bold :overline nil :underline ,base01 :extend t))))
-         (code-heading-5 `((,class ( :foreground ,cyan-1fg    :inherit variable-pitch :background ,base02 :weight bold :overline nil :underline ,base01 :extend t))))
-         (code-heading-6 `((,class ( :foreground ,green-1fg   :inherit variable-pitch :background ,base02 :weight bold :overline nil :underline ,base01 :extend t))))
-         (code-heading-7 `((,class ( :foreground ,yellow-1fg  :inherit variable-pitch :background ,base02 :weight bold :overline nil :underline ,base01 :extend t))))
-         (code-heading-8 `((,class ( :foreground ,orange-1fg  :inherit variable-pitch :background ,base02 :weight bold :overline nil :underline nil)    :extend t)))
+         (code-heading-1 `((,class ( :foreground ,red-1fg     :inherit variable-pitch :background ,base02 :weight bold :overline nil :underline ,base03 :extend t))))
+         (code-heading-2 `((,class ( :foreground ,magenta-1fg :inherit variable-pitch :background ,base02 :weight bold :overline nil :underline ,base03 :extend t))))
+         (code-heading-3 `((,class ( :foreground ,violet-1fg  :inherit variable-pitch :background ,base02 :weight bold :overline nil :underline ,base03 :extend t))))
+         (code-heading-4 `((,class ( :foreground ,blue-1fg    :inherit variable-pitch :background ,base02 :weight bold :overline nil :underline ,base03 :extend t))))
+         (code-heading-5 `((,class ( :foreground ,cyan-1fg    :inherit variable-pitch :background ,base02 :weight bold :overline nil :underline ,base03 :extend t))))
+         (code-heading-6 `((,class ( :foreground ,green-1fg   :inherit variable-pitch :background ,base02 :weight bold :overline nil :underline ,base03 :extend t))))
+         (code-heading-7 `((,class ( :foreground ,yellow-1fg  :inherit variable-pitch :background ,base02 :weight bold :overline nil :underline ,base03 :extend t))))
+         (code-heading-8 `((,class ( :foreground ,orange-1fg  :inherit variable-pitch :background ,base02 :weight bold :overline nil :underline ,base03)    :extend t)))
          ;; ol-colors
          (doc-heading-1 `((,class (:inherit variable-pitch :foreground ,base02 :distant-foreground ,base2 :height ,(solaris--heading-height 1.6) :background ,base0       :weight normal :slant normal :extend t))))
          (doc-heading-2 `((,class (:inherit variable-pitch :foreground ,base02 :distant-foreground ,base2 :height ,(solaris--heading-height 1.4) :background ,magenta-1bg :weight normal :slant normal :extend t))))

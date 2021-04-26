@@ -70,10 +70,10 @@
        `(font-lock-type-face ((,class (:underline t))))
        `(font-lock-variable-name-face ((,class ())))
        ;; modeline (and header)
-       `(mode-line          ((,class (:foreground ,base2 :background ,base02 :underline nil :overline nil :box nil))))
+       `(mode-line          ((,class (:foreground ,base2 :background ,base02 :underline ,base2 :overline ,base2 :box nil))))
        `(mode-line-inactive ((,class (:foreground ,base01 :background ,base03 :underline ,base02 :overline ,base02 :box nil))))
        `(mode-line-highlight ((,class (:foreground ,base01 :weight ,s-maybe-bold :inverse-video t))))
-       ;; `(mode-line-buffer-id ((,class (:inherit mode-line :weight bold))))
+       `(mode-line-buffer-id ((,class (:foreground ,base3 ))))
        `(header-line ((,class (:inherit mode-line :overline nil))))
        ;; ivy
        `(ivy-current-match ((,class (:background ,blue :foreground ,base03 :weight bold :extend t))))

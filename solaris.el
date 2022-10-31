@@ -91,7 +91,9 @@
        `(link ((,class (:foreground ,blue :underline t))))
        ;;;; line numbers
        ;; `(line-number ((,class (:weight normal :underline nil :foreground ,s-fringe-fg :background ,s-fringe-bg))))
-       ;; mu4e
+       ;;;; markdown
+       `(markdown-table-face ((,class (:inherit 'org-table))))
+       ;;;; mu4e
        `(mu4e-unread-face ((,class (:weight bold :foreground ,base1))))
        ;;;; org
        `(org-level-1 ,doc-heading-1)
